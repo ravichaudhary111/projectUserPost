@@ -32,7 +32,7 @@ Make sure you have the following installed on your system:
 4. **Run the server:**
 
    ```bash
-   node server.js
+   node index.js
    ```
 
    The server will start running at `http://localhost:3000` (or another port if specified).
@@ -108,13 +108,3 @@ curl -X POST -H "Content-Type: application/json" -d '{ "text": "Hello World!", "
 
 Feel free to fork the repository and contribute to it. Pull requests are welcome.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### Notes:
-- Replace `<repository_url>` in step 1 with the actual URL of your Git repository.
-- Update the `server.js` file with appropriate error handling and validation based on your project's requirements.
-- The `curl` examples provided assume you have `curl` installed and configured on your system. Adjust the examples according to your specific environment or use a tool like Postman for testing if `curl` is not available.
-- This README.md file is structured to help users understand how to set up, use, and interact with your API using command-line tools like `curl`. Adjust it further based on your specific project requirements and conventions.
